@@ -27,6 +27,12 @@
     padding: 4rem;
 
 }
+
+a:hover{
+    color: var(--brand-color);
+    transition: 0s ease-in-out;
+}
+
 @media screen and (max-width:768px){
     .section_heading{
         font-size: 1.7rem;
@@ -55,11 +61,6 @@ header{
 .navbar-nav > a,p{
     margin-left: 25px;
     color: white;
-}
-
-.navbar-nav > a:hover{
-    color: var(--brand-color);
-    transition: 0s ease-in-out;
 }
 
 .navbar-nav > p{
@@ -251,3 +252,85 @@ header{
     color: #117a37;
 }
 /* ========= QNA ========= */
+
+
+/* ========= FOOTER ========= */
+footer{
+    background: #000;
+    padding: 5rem 3rem 3rem 7rem;
+}
+
+footer img{
+    width: 10rem;
+}
+
+footer h2{
+    color: #919496;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.4;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer ul h2{
+    list-style-type: none;
+}
+
+footer ul a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+footer ul li{
+    margin: 25px 0px;
+}
+
+footer ol span{
+    padding: 0.9rem;
+    border-radius: 50%;
+    text-decoration: none;
+    background-color: #3b3b3b;
+    width: 54px;
+    height: 54px;
+}
+
+footer ol a{
+    color: white;
+}
+
+footer ol li{
+    display: inline-block;
+    font-size: 25px;
+}
+
+@media (max-width: 992px){
+    footer{
+        padding: 5rem 2rem 3rem 2rem;
+    }
+    footer img{
+        width: 6rem;
+    }
+    footer ol{
+        margin-top: 5rem;
+    }
+}
+
+@media (max-width: 768px){
+    footer{
+        padding: 5rem 0rem 3rem 0rem;
+    }
+    footer img{
+        padding-bottom: 3rem;
+        
+    }
+}
+/* ========= FOOTER ========= */
+
+
